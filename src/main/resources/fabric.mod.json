@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "noname",
+  "version": "${version}",
+  "name": "NoName",
+  "description": "",
+  "authors": [
+    "Zaksen_"
+  ],
+  "contact": {
+    "repo": "https://github.com/zaksen/NoName"
+  },
+  "license": "MIT",
+  "icon": "assets/noname/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "client": [
+      "me.zaksen.noname.client.NoNameClient"
+    ],
+    "main": [
+      "me.zaksen.noname.NoName"
+    ]
+  },
+  "mixins": [
+    "noname.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
