@@ -14,9 +14,6 @@
   "icon": "assets/noname/icon.png",
   "environment": "server",
   "entrypoints": {
-    "client": [
-      "me.zaksen.noname.client.NoNameClient"
-    ],
     "main": [
       "me.zaksen.noname.NoName"
     ]

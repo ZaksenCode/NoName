@@ -27,7 +27,7 @@ public abstract class PlayerEntityMixin {
         }
 
         Team playersTeam = this.getServerWorld().getScoreboard().getTeam("players_team");
-        this.getServerWorld().getScoreboard().addScoreHolderToTeam(player.getNameForScoreboard(), playersTeam);
+        this.getServerWorld().getScoreboard().addPlayerToTeam(player.getName().getString(), playersTeam);
     }
 
 }
